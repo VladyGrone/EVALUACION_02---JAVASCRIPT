@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EVALUACION 02 - JAVASCRIPT</title>
+</head>
+<H1>EVALUACION 02</H1>
+<br>
+1. Crear una función que tome como parámetro un arreglo, retornar el último 
+elemento del arreglo. 
+Ejm:  
+ Entrada: [4, 8, 5, 3] 
+ Salida: 3 
+ <br>
+ <br>
+2. Crear una función que tome como parámetro un arreglo y un número, retornar 
+un nuevo arreglo con todos los elementos y el número agregado al final del 
+arreglo. (usar el operador spread) 
+Ejm:  
+ Entrada:  
+Arreglo: [2, 7, 5, 11]  
+Número: 9 
+ Salida:  
+  NuevoArreglo: [2, 7, 5, 11, 9] 
+ <br>
+ <br>
+3. Crear una función que tome como parámetro un arreglo de números, retornar el 
+promedio de todos los elementos del arreglo. 
+Ejm:  
+ Entrada: [2, 6, 1, 8] 
+ Salida: 
+Promedio: 4.25 
+<br>
+<br> 
+4. Crear una función que tome como parámetro un arreglo de números, retornar un 
+dato de tipo número con la suma de todos los números pares. 
+Ejm:  
+ Entrada: [1, 2, 5, 8, 9, 12, 2, 3] 
+ Salida: 2+8+12+2 = 24  
+ <br>
+ <br> 
+5. Crear una función con el nombre de booleanoArray() que tome dos arreglos de 
+números como parámetro y que retorne un booleano, unir los dos arreglos en uno 
+solo, si la longitud del nuevo arreglo es mayor o igual a 10 que retorne true si es 
+menor a 10 que retorne false. 
+Ejm:  
+ Entrada: 
+  Arreglo1: [2, 5, 2, 3, 7, 2] 
+  Arreglo2: [1, 5, 3, 3] 
+  Salida:  
+  ArregloNuevo: [2, 5, 2, 3, 7, 2, 1, 5, 3, 3] 
+  True   
+ <br>
+ <br>
+6. Crear una función con el nombre de funcionArray() que tome dos arreglos de 
+números enteros como parámetro y retornar un único arreglo, cada elemento 
+del arreglo debe estar multiplicado por dos. ej: [2,5,2][1,5,3] -> [4,10,4,2,10,6]. 
+Ejm:  
+ Entrada: 
+  Arreglo1: [2, 5, 2] 
+  Arreglo2: [1, 5, 3] 
+ Salida:  
+  ArregloNuevo: [4, 10, 4, 2, 10, 6] 
+ <br>
+ <br> 
+7. Escribir un programa que almacene la cadena de caracteres “password” en una 
+variable, pregunte al usuario por la contraseña e imprima por pantalla si la 
+contraseña introducida por el usuario coincide con la guardada en la variable sin 
+tener en cuenta mayúsculas y minúsculas.  
+Ejm:  
+Entrada:  
+Introduce la contraseña: ” password”  
+Salida:  
+La contraseña es correcta 
+<br>
+ <br> 
+8. Escribir un programa para una empresa que tiene salas de juegos para todas las 
+edades y quiere calcular de forma automática el precio que debe cobrar a sus 
+clientes por entrar. El programa debe preguntar al usuario la edad del cliente y 
+mostrar el precio de la entrada. Si el cliente es menor de 4 años puede entrar 
+gratis, si tiene entre 4 y 18 años debe pagar 5€ y si es mayor de 18 años, 10€.  
+Ejm:  
+Entrada:  
+Introduce tu edad: 16  
+Salida: El costo de la entrada es 5€
+<br>
+ <br>
+9. Para tributar un determinado impuesto se debe ser mayor de 18 años y tener un 
+ingreso igual o superior a 1000 € mensuales. Escribir un programa que pregunte 
+al usuario su edad y sus ingresos mensuales y muestre por pantalla si el usuario 
+tiene que tributar o no.  
+Ejm:  
+Entrada:  
+Introduce tu edad: 21  
+¿Cuáles son tus ingresos mensuales?: 1350 €  
+Salida: Sí tienes que tributar 
+<br>
+ <br> 
+10. Crea un programa que pida al usuario el diámetro de una rueda y su grosor (en 
+metros).  
+ 
+a) Si el diámetro es superior a 1.4 debe mostrarse el mensaje “La rueda es para un 
+vehículo grande”. Si es menor o igual a 1.4 pero mayor que 0.8 debe mostrarse el 
+mensaje “La rueda es para un vehículo mediano”. Si no se cumplen ninguna de 
+las condiciones anteriores debe mostrarse por pantalla el mensaje “La rueda es 
+para un vehículo pequeño”.  
+ 
+b) Si el diámetro es superior a 1.4 con un grosor inferior a 0.4, o si el diámetro es 
+menor o igual a 1.4 pero mayor que 0.8, con un grosor inferior a 0.25, deberá 
+mostrarse el mensaje “El grosor para esta rueda es inferior al recomendado”  
+Ejm:  
+Entrada:  
+Ingrese el diámetro de una rueda = 1.1  
+Ingrese el grosor de la rueda = 0.24  
+Salida:  
+La rueda es para un vehículo mediano.  
+Su grosor es inferior al recomendado. 
+ <br>
+ <br> 
+11. Se tienen los datos de cinco personas, crear funciones para: 
+• Hallar quienes tienen el salario mayor a 1200. 
+• Hallar quien es el primero que tiene como hobby cantar. 
+• Devolver un booleano sí al menos uno de ellos le gusta leer. 
+let personas = [ 
+  { nombre: 'boris', hobby: 'correr', salario: 2000 }, 
+  { nombre: 'luis', hobby: 'cantar', salario: 1500 }, 
+  { nombre: 'carmen', hobby: 'cocinar', salario: 800 }, 
+  { nombre: 'percy', hobby: 'cantar', salario: 1100 }, 
+  { nombre: 'rosa', hobby: 'leer', salario: 3000 }, 
+]; 
+ <br>
+ <br> 
+12. Un servicio de atención al cliente tiene establecido turnos semanales para sus 
+empleados de manera que cada día de la semana se encarga del servicio una 
+persona:  
+lunes - María, Martes - Luis, Miércoles - Antonia, Jueves - Pedro, Viernes - Marisa. 
+Usa un array para almacenar los datos del servicio. 
+Crea una función que retorne el nombre de la persona encargada del servicio 
+sabiendo el día. Si el día no existe deberá decir que no hay servicio. El día debe ser 
+consultado por prompt. 
+Si le pido servicio('Lunes') me debería decir "Este día se encarga María"  
+ <br>
+ <br>
+13. Una tienda vende monitores, teclados y ratones. Los precios se almacenan en una 
+estructura array conde cada elemento es un par producto - precio. 
+Diseña una función que reciba como argumento el nombre de un producto que 
+previamente ha sido consultado por prompt y devuelva su precio. 
+Si la lista de precios es monitor: 200€, teclado: 20€ ratón: 10€, al pedir precio('monitor') me 
+devolverá 200.
+<br>
+ <br>
+<body>
+    <script src="evaluacion2.js"></script>
+</body>
+</html>
